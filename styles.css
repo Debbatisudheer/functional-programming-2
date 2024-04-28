@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #36454F;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 20px auto; /* Reduced margin for smaller screens */
+    padding: 10px; /* Reduced padding for smaller screens */
+    background-color: #008080;
+    border-radius: 20px; /* Reduced border-radius for smaller screens */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+h1, h2 {
+    color: #E7FFCE;
+    text-align: center;
+}
+
+strong {
+    color: black;
+}
+
+.pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 10px; /* Reduced margin for smaller screens */
+    border-radius: 5px;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    overflow-x: auto;
+}
+
+/* Style for the code within the block */
+.pre code {
+    display: block;
+    white-space: pre;
+    color: #333;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .container {
+        border-radius: 10px;
+    }
+}
