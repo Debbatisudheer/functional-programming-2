@@ -24,7 +24,7 @@ strong {
     color: black;
 }
 
-.pre {
+pre {
     background-color: #f4f4f4;
     padding: 10px;
     margin: 10px; /* Reduced margin for smaller screens */
@@ -36,7 +36,7 @@ strong {
 }
 
 /* Style for the code within the block */
-.pre code {
+code {
     display: block;
     white-space: pre;
     color: #333;
@@ -47,4 +47,21 @@ strong {
     .container {
         border-radius: 10px;
     }
+    pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 10px; /* Reduced margin for smaller screens */
+    border-radius: 5px;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    overflow-x: auto;
+}
+
+/* Style for the code within the block */
+code {
+    display: block;
+    white-space: pre;
+    color: #333;
+}
 }
